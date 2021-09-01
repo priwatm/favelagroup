@@ -6,14 +6,13 @@ import {routes} from "src/constants/routes";
 import {Auth, Registration, ForgetSend, EmailConfirmed} from "src/components/pages";
 
 export const MainContainer = observer(() => {
-    const baseUrl = process.env.NODE_ENV === 'production' ? '/favelagroup' : '';
     let content: React.ReactNode = '';
     content = (
         <Switch>
-            <Route path={baseUrl + routes.auth.path} component={Auth} />
-            <Route path={baseUrl + routes.reg.path} component={Registration} />
-            <Route path={baseUrl + routes.reg.routes!.confirmed.path} component={EmailConfirmed} />
-            <Route path={baseUrl + routes.forget.path} component={ForgetSend} />
+            <Route path={routes.auth.path} component={Auth} />
+            <Route path={routes.reg.path} component={Registration} />
+            <Route path={routes.reg.routes!.confirmed.path} component={EmailConfirmed} />
+            <Route path={routes.forget.path} component={ForgetSend} />
         </Switch>
     )
     return (
