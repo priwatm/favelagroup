@@ -1,16 +1,28 @@
 import * as React from "react";
-import {Link, useHistory} from "react-router-dom";
+import {Link, useHistory, useLocation} from "react-router-dom";
 import {routes} from "src/constants/routes";
 import logo from "src/assets/img/logo.svg"
 import {useApplicationManager} from 'src/hooks/manager/useApplicationManager'
 import {observer} from "mobx-react";
 import {anonymous} from "src/constants/security";
+import {useEffect} from "react";
 
 export const HeaderMenu = observer(() => {
     const applicationManager = useApplicationManager()
     const {visibleHeader} = applicationManager;
     const history = useHistory();
+    const location = useLocation();
     const {user} = applicationManager;
+
+    function effectPage() {
+        if (location.pathname === routes.forget.path) {
+            visibleHeader.visible = false;
+        } else {
+            visibleHeader.visible = true;
+        }
+    }
+
+    useEffect(effectPage, [location])
 
     const onLogOff = () => {
         try {
