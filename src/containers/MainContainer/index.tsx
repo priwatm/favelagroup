@@ -6,7 +6,7 @@ import {routes} from "src/constants/routes";
 import {Auth, Registration, ForgetSend, EmailConfirmed} from "src/components/pages";
 
 export const MainContainer = observer(() => {
-    const baseUrl = process.env.NODE_ENV === 'production' ? 'favelagroup' : '';
+    const baseUrl = process.env.NODE_ENV === 'production' ? '/favelagroup' : '';
     let content: React.ReactNode = '';
     content = (
         <Switch>
