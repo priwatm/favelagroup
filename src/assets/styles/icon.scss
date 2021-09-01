@@ -1,0 +1,36 @@
+$image-path : "../img/icon";
+*[class*="icon__"] {
+    position    : relative;
+    top         : 1px;
+    display     : inline-block;
+    font-style  : normal;
+    font-weight : normal;
+    line-height : 1;
+    font-size   : 24px;
+}
+
+.icon {
+    &__facebook {
+        &:before {
+            content : url($image-path + "/facebook.svg");
+        }
+    }
+
+    &__google {
+        &:before {
+            content : url($image-path + "/google.svg");
+        }
+    }
+
+    &__key {
+        &:before {
+            content : url($image-path + "/key.svg");
+        }
+    }
+
+    &__send {
+        &:before {
+            content : url($image-path + "/send.svg");
+        }
+    }
+}

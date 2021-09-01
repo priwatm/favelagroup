@@ -1,0 +1,95 @@
+.confirmed-container {
+    margin          : 132px auto;
+    display         : flex;
+    flex-wrap       : wrap;
+    justify-content : center;
+
+    h1 {
+        font-weight   : 600;
+        font-size     : 56px;
+        line-height   : 76px;
+        text-align    : center;
+        color         : #000000;
+        margin-bottom : 16px;
+    }
+
+    h2 {
+        font-style    : normal;
+        font-weight   : normal;
+        font-size     : 16px;
+        line-height   : 20px;
+        color         : #999999;
+        text-align    : center;
+        margin-bottom : 32px;
+    }
+
+    .btn {
+        width         : 100%;
+        height        : 64px;
+        margin-bottom : 24px;
+    }
+
+    input {
+        width : 100%
+    }
+
+    &__input-group {
+        display         : flex;
+        flex-wrap       : wrap;
+        margin-bottom   : 32px;
+        justify-content : center;
+    }
+
+    &__submit-group {
+        display         : flex;
+        flex-wrap       : wrap;
+        justify-content : center;
+    }
+}
+
+.email-confirmed {
+    width  : 689px;
+    height : 334px;
+
+    .confirmed-container__submit-group,
+    .confirmed-container__input-group {
+        width : 364px;
+    }
+}
+
+.repeated-email {
+    width  : 675px;
+    height : 444px;
+
+    .confirmed-container__submit-group,
+    .confirmed-container__input-group {
+        width : 420px;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    .confirmed-container {
+        width   : auto;
+        padding : 0 16px;
+        margin  : 121px auto;
+
+        h1 {
+            font-size   : 32px;
+            line-height : 44px;
+        }
+
+        h2 {
+            font-size   : 14px;
+            line-height : 24px;
+        }
+    }
+    .email-confirmed {
+        h1 {
+            width : 272px;
+        }
+
+        h2 {
+            width : 343px;
+        }
+    }
+}

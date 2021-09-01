@@ -1,0 +1,53 @@
+header {
+    height          : 99px;
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    padding         : 0 54px;
+
+    .header-menu {
+        &__right-content {
+            span {
+                font-style    : normal;
+                font-weight   : normal;
+                font-size     : 14px;
+                line-height   : 20px;
+                color         : #999999;
+                padding-right : 24px;
+            }
+
+            .btn {
+                padding : 19px 35px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    header {
+        height  : 60px;
+        padding : 0 16px;
+
+        .header-menu {
+            &__left-content {
+                a {
+                    height : 16px;
+
+                    img {
+                        height : inherit;
+                    }
+                }
+            }
+
+            &__right-content {
+                span {
+                    display : none;
+                }
+
+                .btn {
+                    padding : 13px 16px;
+                }
+            }
+        }
+    }
+}

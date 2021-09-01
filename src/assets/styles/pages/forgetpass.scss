@@ -1,0 +1,62 @@
+.forget-container {
+    width  : 420px;
+    height : 304px;
+    margin : 114px auto;
+
+    i {
+        text-align    : center;
+        width         : 100%;
+        margin-bottom : 48px;
+    }
+
+    h1 {
+        font-weight   : 600;
+        font-size     : 32px;
+        line-height   : 44px;
+        text-align    : center;
+        color         : #000000;
+        margin-bottom : 8px;
+    }
+
+    h2 {
+        font-style    : normal;
+        font-weight   : normal;
+        font-size     : 16px;
+        line-height   : 20px;
+        color         : #999999;
+        text-align    : center;
+        margin-bottom : 32px;
+    }
+
+    &__input-group {
+        display         : flex;
+        flex-wrap       : wrap;
+        margin-bottom   : 32px;
+        justify-content : center;
+
+        input {
+            width : 100%;
+        }
+    }
+
+    &__submit-group {
+        display         : flex;
+        justify-content : center;
+        flex-wrap       : wrap;
+
+        .btn {
+            width         : 100%;
+            height        : 64px;
+            margin-bottom : 24px;
+        }
+
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    .forget-container {
+        width   : auto;
+        padding : 0 16px;
+        margin  : 71px auto;
+    }
+}
