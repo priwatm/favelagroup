@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.4166c35c.chunk.css",
-    "main.js": "/static/js/main.667c5421.chunk.js",
-    "main.js.map": "/static/js/main.667c5421.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cc73a219.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cc73a219.js.map",
-    "static/css/2.4811ef0d.chunk.css": "/static/css/2.4811ef0d.chunk.css",
-    "static/js/2.dfbc2958.chunk.js": "/static/js/2.dfbc2958.chunk.js",
-    "static/js/2.dfbc2958.chunk.js.map": "/static/js/2.dfbc2958.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.4811ef0d.chunk.css.map": "/static/css/2.4811ef0d.chunk.css.map",
-    "static/css/main.4166c35c.chunk.css.map": "/static/css/main.4166c35c.chunk.css.map",
-    "static/js/2.dfbc2958.chunk.js.LICENSE.txt": "/static/js/2.dfbc2958.chunk.js.LICENSE.txt",
-    "static/media/common.scss": "/static/media/send.264fb820.svg",
-    "static/media/logo.fb080818.svg": "/static/media/logo.fb080818.svg",
-    "static/media/primeicons.css": "/static/media/primeicons.e61f3495.woff"
+    "main.css": "/favelagroup/static/css/main.ac1c3d2e.chunk.css",
+    "main.js": "/favelagroup/static/js/main.5d2afbe1.chunk.js",
+    "main.js.map": "/favelagroup/static/js/main.5d2afbe1.chunk.js.map",
+    "runtime-main.js": "/favelagroup/static/js/runtime-main.f5342296.js",
+    "runtime-main.js.map": "/favelagroup/static/js/runtime-main.f5342296.js.map",
+    "static/css/2.438592d8.chunk.css": "/favelagroup/static/css/2.438592d8.chunk.css",
+    "static/js/2.dfbc2958.chunk.js": "/favelagroup/static/js/2.dfbc2958.chunk.js",
+    "static/js/2.dfbc2958.chunk.js.map": "/favelagroup/static/js/2.dfbc2958.chunk.js.map",
+    "index.html": "/favelagroup/index.html",
+    "static/css/2.438592d8.chunk.css.map": "/favelagroup/static/css/2.438592d8.chunk.css.map",
+    "static/css/main.ac1c3d2e.chunk.css.map": "/favelagroup/static/css/main.ac1c3d2e.chunk.css.map",
+    "static/js/2.dfbc2958.chunk.js.LICENSE.txt": "/favelagroup/static/js/2.dfbc2958.chunk.js.LICENSE.txt",
+    "static/media/common.scss": "/favelagroup/static/media/send.264fb820.svg",
+    "static/media/logo.fb080818.svg": "/favelagroup/static/media/logo.fb080818.svg",
+    "static/media/primeicons.css": "/favelagroup/static/media/primeicons.e61f3495.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.cc73a219.js",
-    "static/css/2.4811ef0d.chunk.css",
+    "static/js/runtime-main.f5342296.js",
+    "static/css/2.438592d8.chunk.css",
     "static/js/2.dfbc2958.chunk.js",
-    "static/css/main.4166c35c.chunk.css",
-    "static/js/main.667c5421.chunk.js"
+    "static/css/main.ac1c3d2e.chunk.css",
+    "static/js/main.5d2afbe1.chunk.js"
   ]
 }
