@@ -17,7 +17,7 @@ export interface Routes {
 export const routes: Routes = {
     auth: {
         title: 'Авторизаия',
-        path: '/auth'
+        path: '/'
     },
     reg: {
         title: 'Регистрация',
