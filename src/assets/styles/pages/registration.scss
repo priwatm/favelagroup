@@ -64,7 +64,9 @@
         }
 
         span {
-            line-height : 24px;
+            text-align    : center;
+            line-height   : 24px;
+            margin-bottom : 27px;
         }
     }
 }
@@ -95,6 +97,12 @@
                 &:nth-child(2n) {
                     margin-top : 8px;
                 }
+            }
+        }
+
+        &__submit-group {
+            span {
+                width : 250px;
             }
         }
     }
