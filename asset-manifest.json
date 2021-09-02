@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/favelagroup/static/css/main.9a8473c5.chunk.css",
-    "main.js": "/favelagroup/static/js/main.40e44c4e.chunk.js",
-    "main.js.map": "/favelagroup/static/js/main.40e44c4e.chunk.js.map",
+    "main.js": "/favelagroup/static/js/main.1343c8cf.chunk.js",
+    "main.js.map": "/favelagroup/static/js/main.1343c8cf.chunk.js.map",
     "runtime-main.js": "/favelagroup/static/js/runtime-main.f5342296.js",
     "runtime-main.js.map": "/favelagroup/static/js/runtime-main.f5342296.js.map",
     "static/css/2.438592d8.chunk.css": "/favelagroup/static/css/2.438592d8.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.438592d8.chunk.css",
     "static/js/2.bd40c27e.chunk.js",
     "static/css/main.9a8473c5.chunk.css",
-    "static/js/main.40e44c4e.chunk.js"
+    "static/js/main.1343c8cf.chunk.js"
   ]
 }
